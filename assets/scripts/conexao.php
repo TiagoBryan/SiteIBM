@@ -9,5 +9,3 @@
     } catch (PDOException $th) {
         echo "Erro na conexão : " . $th->getMessage();
     }
-    
-    ?>
